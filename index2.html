@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Галерея</title>
+</head>
+<body bgcolor="#0D1117" text="#000000">
+<style type="text/css">
+    span.inlineBlock {
+        display: inline-block;
+        vertical-align: top;
+    }
+    body{
+        background: #266019;
+    }
+    .parent {
+        width: 100%;
+        background-color: #316543;
+    }
+    .child1 {
+        width: 40%;
+        background-color: #66b248;
+    }
+    .child2 {
+        width: 60%;
+        background: linear-gradient(to bottom left, #316543 50%, #1fa850 50%);
+    }
+    .blk {
+        padding: 20px;
+        border: 2px solid #E81E25;
+        margin: 10px;
+    }
+
+    .header1 {
+        height: 100px;
+        background: radial-gradient(#1fa850, #4ca239);
+    }
+    .main {
+        padding: 14px;
+        margin-top: 35px;
+        height: 120px;
+    }
+    .footer {
+        height: 140px;
+        margin-top: 80px;
+        background: linear-gradient(to bottom, #4da21a 0%, #4da21a 100%);
+        text-align: center;
+        font-size: 14px;
+    }
+    /* The side navigation menu */
+    .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #5c8c44;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+    }
+
+    /* Sidebar links */
+    .sidebar a {
+        display: block;
+        color: #000000;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+    /* Active/current link */
+    .sidebar a.active {
+        background-color: #1fa850;
+        color: white;
+    }
+
+    /* Links on mouse-over */
+    .sidebar a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+    }
+
+    /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+    div.content {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 1000px;
+    }
+
+    /* On screens that are less than 700px wide, make the sidebar into a topbar */
+    @media screen and (max-width: 700px) {
+        .sidebar {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+
+        .sidebar a {
+            float: left;
+        }
+
+        div.content {
+            margin-left: 0;
+        }
+    }
+
+    /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+    @media screen and (max-width: 400px) {
+        .sidebar a {
+            text-align: center;
+            float: none;
+        }
+    }
+
+    .rr {
+        font-family: Pompadur, 'Comic Sans MS', cursive;
+    }
+
+    .colortext {
+        color: #64c54f;
+    }
+</style>
+    <div class="rr">
+        <!-- The sidebar -->
+        <div class="sidebar">
+            <a href="index.html">Головна сторінка</a>
+            <a class="active" href="index2.html" >Фото галерея</a>
+            <a href="index3.html" >Таблиця</a>
+        </div>
+        <!-- Page content -->
+        <div class="content">
+            <div class="header1"></div>
+            <div class="main">
+                <h1><span class="colortext">Фото Галерея</h1></span>
+                <hr></hr>
+                <p><span class="colortext1">IBM PC (Personal Computer) Фото та характеристики. </span></p>
+            </div>
+            <div class="header1"></div>
+            <br />
+            <br>
+            <span class="inlineBlock parent">
+                <span class="inlineBlock layer4">
+                    <span class="inlineBlock child1">
+                        <div class="blk">
+                           <h1>IBM</h1>
+                            <p>
+                                12 серпня 1981 р. корпорація IBM оголосила
+                                про випуск нового апаратно-програмного комплексу
+                                - персонального комп'ютера IBM 5150 (пізніше він
+                                отримав назву IBM PC)
+                            </p>
+                        </div>
+                    </span><span class="inlineBlock child2">
+                        <div class="blk">
+                            <table align="center" border="1px;" style="float= " top">
+                                <tbody>
+                                    <tr>
+                                        <td>Тип </td>
+                                        <td>Персональний комп'ютер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Виробник</td>
+                                        <td>IBM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Дата випуску</td>
+                                        <td>12 серпня 1981</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12 серпня 1981</td>
+                                        <td>до 2 квітня 1987</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Процесор</td>
+                                        <td>Intel 8088, 4,77 МГц</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Оперативна пам'ять</td>
+                                        <td>16–64 КБ (розш. до 256 КБ)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Попередник</td>
+                                        <td>IBM Datamaster</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Спадкоємець</td>
+                                        <td>IBM PC/XT</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ОС</td>
+                                        <td>IBM BASIC/PC-DOS 1.0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </span>
+                </span>
+            </span>
+            <span class="inlineBlock parent">
+                <span class="inlineBlock layer4">
+                    <span class="inlineBlock child2">
+                        <div class="blk">
+                            <img src="https://3dnews.ru/assets/external/illustrations/2021/08/12/1046579/44444.jpg"
+                                 width="100%" height="100%">
+                        </div>
+                    </span><span class="inlineBlock child1">
+                        <div class="blk">
+                            Рівно 40 років тому розпочалася епоха масового домашнього
+                            використання комп'ютерів. Її початок ознаменував старт прод
+                            ажів IBM 5150 – першого у світі персонального комп'ютера. З
+                            тих пір термін "персональний комп'ютер" або ПК став загальним
+                            і використовується для всіх пристроїв такого класу.
+                            <p>
+                               Розробкою моделі 5150 IBM зайнялася влітку 1980 року.
+                                Команда зі 150 інженерів працювала у суворій таємності,
+                                не обговорюючи свої напрацювання навіть з іншими співро
+                                бітниками компанії. У квітні 1981 року новинка була пере
+                                дана у масове виробництво, а 12 серпня того ж року вийшла
+                                на ринок за ціною $1565 за базову комплектацію.
+                            </p>
+
+                        </div>
+
+                    </span>
+                </span>
+            </span>
+            <span class="inlineBlock parent">
+                <span class="inlineBlock layer4">
+                    <span class="inlineBlock child1">
+                        <div class="blk">
+                            <img src="https://3dnews.ru/assets/external/illustrations/2021/08/12/1046579/930030.jpg"
+                                 width="100%" height="100%">
+                        </div>
+                    </span><span class="inlineBlock child2">
+                        <div class="blk">
+                            Технічні характеристики IBM 5150 зараз викликають усмішку, проте
+                            на ті часи пристрій вважався дуже продуктивним для комп'ютера,
+                            здатного вміститися на столі і не вартий більше, ніж автомобіль. В
+                            ін був побудований на базі 8-бітного процесора Intel 8088 з част
+                            отою 4,77 МГц, який працював у зв'язці з 16 Кбайт оперативної пам
+                            'яті. За малювання графіки, залежно від комплектації, відповідав мо
+                            нохромний або кольоровий графічний адаптер, що відображає до 16 від
+                            тінків. У комплект поставки входив монітор: монохромний IBM 5151 аб
+                            о кольоровий IBM 5153. Крім цього, з комп'ютером поставлялася клавіа
+                            тура IBM Model F на 83 клавіші, динамік та до двох 5,25-дюймових диск
+                            оводів для дискет об'ємом 160 або 320 Кбайт. IBM 5150 міг похвалитися
+                            наявністю портів для підключення жорсткого диска або касетного магніт
+                            офона, а також п'ятьма слотами плат розширення, послідовними і парале
+                            льними портами.
+                        </div>
+
+                    </span>
+                </span>
+            </span>
+
+            <div class="footer">
+                <!-- подвал сайта -->
+                <br><h1>@Taras</h1>
+        </div>
+    </div>
+</body>
+</html>
